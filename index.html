@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="احصل على عرض خاص لشراء حامل مغناطيسي وشاحن لاسلكي مميز للهواتف الذكية في السيارة. شحن سريع وبسعر مميز!">
+  <title>عرض خاص</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <meta property="og:title" content="عرض خاص - شراء الآن">
+  <meta property="og:description"
+    content="استفد من العرض الخاص الآن! ">
+  <meta property="og:image"
+    content="https://pro.safir.click/images/thumbnails/449/449/detailed/326/Wireless-Charger-Car-Kit-3-e1564403929569.jpg">
+  <meta property="og:url" content="https://hassannben.github.io/hasasl/">
+  <meta property="og:type" content="website">
+</head>
+
+<body>
+  <div class="container">
+    <div class="product-description">
+      <h3>وصف المنتج</h3>
+      <h3>حامل مغناطيسي و شاحن لاسلكي مميز للهواتف الذكية في السيارة بتقنية الشحن السريع WIRELESS CHARGER CAR KIT W3
+        [CLONE]</h3>
+      <br>
+      <h1 style="color: #edf5f4;">1300 دج</h1>
+      <br>
+      <p>
+        حامل مغناطيسي و شاحن لاسلكي لهاتفك الذكي 2في1، مناسب للإستعمال في السيارة سواءا عن طريق كابل للشحن أو عن طريق
+        ميزة الشحن اللاسلكي، متوافق مع هواتف السامسونغ، الأيفون و كل الهواتف الذكية التي تدعم تقنية الشحن اللاسلكي. حامل
+        مغناطيسي مثبت بطريقة مميزة ويعمل بتقنية الشحن السريع.
+      </p>
+      <br>
+      <div class="product-images">
+        <img src="images/Wireless-ChargeR.jpg" alt="صورة المنتج 1" />
+        <img src="images/Wireless-Charger-C.jpg" alt="صورة المنتج 2" />
+        <img src="images/Wireless-Charger-Ca.jpg" alt="صورة المنتج 3" />
+        <img src="images/ai.png" alt="صورة المنتج 4" />
+      </div>
+    </div>
+
+    <div class="order-form">
+      <h3>معلومات الطلب</h3>
+      <form id="orderForm"
+        action="https://script.google.com/macros/s/AKfycbyipcoqqRFSG60QhUcNCO4T32BwwdVq9xpU3LAnfr5esggXG8F25FeMYwOn0aBaMZBK/exec"
+        method="POST" onsubmit="handleSubmit(event)">
+        <input type="hidden" id="productName" name="productName" value="حامل مغناطيسي وشاحن لاسلكي">
+
+        <label for="name">الاسم و اللقب</label>
+        <input type="text" id="name" name="name" required>
+
+
+
+        <label for="phone">رقم الهاتف</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="city">الولاية</label>
+        <select id="city" name="city" required>
+          <option value="" disabled selected>اختر الولاية</option>
+          <option value="الجزائر">الجزائر</option>
+          <option value="وهران">وهران</option>
+          <option value="قسنطينة">قسنطينة</option>
+          <option value="تيزي وزو">تيزي وزو</option>
+          <option value="البرج">البرج</option>
+          <option value="الشلف">الشلف</option>
+          <option value="المدية">المدية</option>
+          <option value="سعيدة">سعيدة</option>
+          <option value="خنشلة">خنشلة</option>
+        </select>
+        <label for="address"> العنوان </label>
+        <input type="tel" id="address" name="address" required>
+
+        <label for="quantity">الكمية</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <label for="deliveryCost">تكلفة التوصيل:</label>
+        <input type="text" id="deliveryCost" name="deliveryCost" readonly>
+        
+        <label for="total">المجموع:</label>
+        <input type="text" id="total" name="total" readonly> 
+        
+
+        <input type="hidden" id="date" name="date">
+        <input type="hidden" id="time" name="time">
+
+        <input type="submit" value="تأكيد الطلب">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
