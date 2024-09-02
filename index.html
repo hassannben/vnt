@@ -20,15 +20,12 @@
   <div class="container">
     <div class="product-description">
       <h3>وصف المنتج</h3>
-      <h3>حامل مغناطيسي و شاحن لاسلكي مميز للهواتف الذكية في السيارة بتقنية الشحن السريع WIRELESS CHARGER CAR KIT W3
-        [CLONE]</h3>
+      <h3>حامل مغناطيسي و شاحن لاسلكي مميز للهواتف الذكية في السيارة بتقنية الشحن السريع WIRELESS CHARGER CAR KIT W3 [CLONE]</h3>
       <br>
       <h1 style="color: #edf5f4;">1300 دج</h1>
       <br>
       <p>
-        حامل مغناطيسي و شاحن لاسلكي لهاتفك الذكي 2في1، مناسب للإستعمال في السيارة سواءا عن طريق كابل للشحن أو عن طريق
-        ميزة الشحن اللاسلكي، متوافق مع هواتف السامسونغ، الأيفون و كل الهواتف الذكية التي تدعم تقنية الشحن اللاسلكي. حامل
-        مغناطيسي مثبت بطريقة مميزة ويعمل بتقنية الشحن السريع.
+        حامل مغناطيسي و شاحن لاسلكي لهاتفك الذكي 2في1، مناسب للإستعمال في السيارة سواءا عن طريق كابل للشحن أو عن طريق ميزة الشحن اللاسلكي، متوافق مع هواتف السامسونغ، الأيفون و كل الهواتف الذكية التي تدعم تقنية الشحن اللاسلكي. حامل مغناطيسي مثبت بطريقة مميزة ويعمل بتقنية الشحن السريع.
       </p>
       <br>
       <div class="product-images">
@@ -45,16 +42,11 @@
         action="https://script.google.com/macros/s/AKfycbyipcoqqRFSG60QhUcNCO4T32BwwdVq9xpU3LAnfr5esggXG8F25FeMYwOn0aBaMZBK/exec"
         method="POST" onsubmit="handleSubmit(event)">
         <input type="hidden" id="productName" name="productName" value="حامل مغناطيسي وشاحن لاسلكي">
+        
+        <input type="text" id="name" name="name" placeholder="الاسم و اللقب" required autocomplete="name">
+        <input type="tel" id="phone" name="phone" placeholder="رقم الهاتف" required style="direction: rtl; text-align: right;" autocomplete="tel">
 
-        <label for="name">الاسم و اللقب</label>
-        <input type="text" id="name" name="name" required>
-
-
-
-        <label for="phone">رقم الهاتف</label>
-        <input type="tel" id="phone" name="phone" required>
-
-        <label for="city">الولاية</label>
+        <label for="city"></label>
         <select id="city" name="city" required>
           <option value="" disabled selected>اختر الولاية</option>
           <option value="الجزائر">الجزائر</option>
@@ -67,18 +59,18 @@
           <option value="سعيدة">سعيدة</option>
           <option value="خنشلة">خنشلة</option>
         </select>
-        <label for="address"> العنوان </label>
-        <input type="tel" id="address" name="address" required>
 
-        <label for="quantity">الكمية</label>
-        <input type="number" id="quantity" name="quantity" min="1" required>
+        <label for="address"></label>
+        <input type="text" id="address" name="address" placeholder="العنوان" required autocomplete="address">
 
-        <label for="deliveryCost">تكلفة التوصيل:</label>
-        <input type="text" id="deliveryCost" name="deliveryCost" readonly>
+        <label for="quantity"></label>
+        <input type="number" id="quantity" name="quantity" placeholder="الكمية" min="1" required autocomplete="quantity">
+
+        <label for="deliveryCost"> </label>
+        <input type="text" id="deliveryCost" name="deliveryCost" placeholder="تكلفة التوصيل" readonly>
         
-        <label for="total">المجموع:</label>
-        <input type="text" id="total" name="total" readonly> 
-        
+        <label for="total"></label>
+        <input type="text" id="total" name="total" placeholder="المجموع" readonly> 
 
         <input type="hidden" id="date" name="date">
         <input type="hidden" id="time" name="time">
